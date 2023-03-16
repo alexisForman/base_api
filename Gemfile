@@ -25,6 +25,8 @@ gem 'bootsnap', '>= 1.4.4', require: false
 gem 'rack-attack'
 gem 'rack-cors'
 
+gem 'jquery-rails'
+
 # ======================== Background Jobs Gems ========================
 gem 'sidekiq'
 gem 'sidekiq-scheduler'

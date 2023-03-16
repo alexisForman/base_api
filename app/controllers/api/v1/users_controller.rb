@@ -45,6 +45,11 @@ module Api
         render_error(errors: { validated: false, status: 401 }) and return if user.nil?
         render_success(payload: { validated: true, status: 200 })
       end
+      #Exercise 1: Create an endpoint to update a user.
+      def update_me
+        puts "Life is good!  Im learning to check my endpoints on Postman!"
+
+      end
     end
   end
 end
